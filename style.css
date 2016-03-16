@@ -6,22 +6,17 @@ body {
 	margin: 0;
 }
 @font-face {
-	font-family: 'quicksand';
-	src: url('https://files.catbox.moe/okgkwp.otf');
-
-	font-weight: bold;
-	font-style: italic;
-}
-*::selection {
-	background:#444;color:#fff;
+font-family: sans-serif;
+font-weight: bold;
+src: url("fonts/Quicksand.otf") format("opentype");
 }
 h1 {
-	font: 42px quicksand, sans-serif;
+	font: 62px Quicksand, sans-serif;
 	text-transform: uppercase;
-	padding: 0.15em 0.3em;
-	border: 6px solid;
+	padding: 0.1em 0.4em;
+	text-decoration: underline;
 	margin: 0 0 0.2em 0;
-	box-shadow: 1px 1px 1px black;
+	text-shadow: 1px 1px 0px black;
 }
 .content {
 	position: fixed;
@@ -32,39 +27,47 @@ h1 {
     transform: translate(-50%, -50%);
     color: #fff;
 	text-shadow: 1px 1px 2px #000000;
+
 }
-.text-content {
-	line-height: 14px;
+.animatedText {
+	animation: fadein 6s;
+	transform-origin: center bottom;
 }
-a,a:hover,a:focus {
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+a:link {
+	font: 16px none, sans-serif;
 	text-decoration: none;
-	color: inherit;
+	color: #FFFFFF
+	;
+}
+a:hover{
+	font: 16px none, sans-serif;
+	text-decoration: underline;
+	color: #FFFFFF
+	;
+}
+a:visited{
+	font: 16px none, sans-serif;
+	text-decoration: none;
+	color: #FFFFFF
+	;
 }
 .text-content a {
-	font: 16px quicksand, sans-serif;
+	font: 16px Quicksand, sans-serif;
 	text-transform: uppercase;
 	padding: 5px;
-	text-shadow: 1px 1px 2px #000000;
 }
 span {
-	font: 28px quicksand, sans-serif;
+	font: 28px Quicksand, sans-serif;
 	vertical-align: bottom;
-}
-.fullscreen-bg {
-	position: fixed;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	overflow: hidden;
-	z-index: -100;
-}
-.fullscreen-bgvideo {
-	position: absolute;
-	top: 0;left: 0;
-	width: 100;
-	height: 100%;
-}
+}	
 .clicker {
 	text-align: right;
 	position: absolute;
