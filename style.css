@@ -5,18 +5,18 @@ body {
 	text-align: center;
 	margin: 0;
 }
-@font-face {
-font-family: sans-serif;
-font-weight: bold;
-src: url("Quicksand.otf") format("opentype");
+@font-face{
+  font-family: "Quicksand";
+  src: url('Quicksand.otf') format('opentype');
 }
+
 h1 {
 	font: 62px Quicksand, sans-serif;
 	text-transform: uppercase;
 	padding: 0.1em 0.4em;
 	text-decoration: underline;
 	margin: 0 0 0.2em 0;
-	text-shadow: 1px 1px 0px black;
+	text-shadow: 1px 1px 1px black;
 }
 .content {
 	position: fixed;
@@ -26,7 +26,7 @@ h1 {
 	-webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     color: #fff;
-	text-shadow: 1px 1px 2px #000000;
+	text-shadow: 1px 1px 1px #000000;
 
 }
 .animatedText {
