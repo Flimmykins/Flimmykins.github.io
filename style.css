@@ -8,7 +8,7 @@ body {
 @font-face {
 font-family: sans-serif;
 font-weight: bold;
-src: url("fonts/Quicksand.otf") format("opentype");
+src: url("Quicksand.otf") format("opentype");
 }
 h1 {
 	font: 62px Quicksand, sans-serif;
