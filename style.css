@@ -33,6 +33,10 @@ h1 {
 	animation: fadein 6s;
 	transform-origin: center bottom;
 }
+.animatedText2 {
+	animation: fadein 2s;
+	transform-origin: center bottom;
+}
 @keyframes fadein {
     from {
         opacity:0;
