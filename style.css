@@ -27,12 +27,28 @@ h1 {
     transform: translate(-50%, -50%);
     color: #fff;
 	text-shadow: 1px 1px 1px #000000;
-
+}
+.buttons {
+	position: fixed;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+}
+.extras {
+	position: fixed;
+	text-align: center;
+	top: 73%;
+	left: 47.2%;
+}
+.header {
+	position: fixed;
+	text-align: center;
+	top: 25%;
+	left: 45%;
 }
 .animatedText {
 	animation: fadein 6s;
 	transform-origin: center bottom;
-	
 }
 @keyframes fadein {
     from {
@@ -76,4 +92,9 @@ span {
 	right: 10px;
 	color: #fff;
 	font-size: 24px;
+}
+img {
+  margin:0;
+  padding:0;
+  display: block;
 }
