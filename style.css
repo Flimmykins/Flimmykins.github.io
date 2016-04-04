@@ -38,13 +38,13 @@ h1 {
 	position: fixed;
 	text-align: center;
 	top: 73%;
-	left: 47.2%;
+	left: 50%;
 }
 .header {
 	position: fixed;
 	text-align: center;
 	top: 25%;
-	left: 45%;
+	left: 50%;
 }
 .animatedText {
 	animation: fadein 6s;
@@ -94,7 +94,6 @@ span {
 	font-size: 24px;
 }
 img {
-  margin:0;
-  padding:0;
-  display: block;
+    display: block;
+    margin:0 auto; 
 }
