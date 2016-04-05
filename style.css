@@ -2,7 +2,7 @@ html,body {
 	height: 100%;
 }
 body {
-	text-align: center;
+	text-align: none;
 	margin: 0;
 }
 @font-face{
@@ -28,16 +28,16 @@ h1 {
     color: #fff;
 	text-shadow: 1px 1px 1px #000000;
 }
-.buttons {
+.links {
 	position: fixed;
 	text-align: center;
 	top: 50%;
 	left: 50%;
 }
-.extras {
+.footer {
 	position: fixed;
 	text-align: center;
-	top: 73%;
+	top: 75%;
 	left: 50%;
 }
 .header {
@@ -46,7 +46,7 @@ h1 {
 	top: 25%;
 	left: 50%;
 }
-.animatedText {
+.animated {
 	animation: fadein 6s;
 	transform-origin: center bottom;
 }
@@ -84,14 +84,6 @@ a:visited{
 span {
 	font: 28px Quicksand, sans-serif;
 	vertical-align: bottom;
-}	
-.clicker {
-	text-align: right;
-	position: absolute;
-	bottom: 10px;
-	right: 10px;
-	color: #fff;
-	font-size: 24px;
 }
 img {
     display: block;
