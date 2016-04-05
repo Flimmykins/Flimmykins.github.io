@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+    <title>Drifting away...</title>
+    <style>
+        video#bgvid { 
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        min-width: 65%;
+        min-height: 101%;
+        width: auto;
+        height: auto;
+        z-index: -100;
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        background: url(background.jpg) no-repeat;
+        background-size: cover;
+        }
+    </style>
+	<link rel="icon" href="http://i.imgur.com/u5Fk14U.png">
+	<link rel="stylesheet" href="font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+	</head><body bgcolor="#000000" ondragstart="return false;" ondrop="return false;">
+    
+    <video autoplay preload loop poster="background.jpg" id="bgvid">
+        <source src="../drugs.mp4" type="video/mp4">
+    </video>
+    
+	<audio preload autoplay loop>
+        <source src="../sounds/drugs.ogg" type="audio/ogg">
+        Your browser doesn't support the audio element.
+	</audio>
+</body></html>
