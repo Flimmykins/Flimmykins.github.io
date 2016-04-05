@@ -9,9 +9,16 @@ body {
   font-family: "Quicksand";
   src: url('Quicksand.otf') format('opentype');
 }
-
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
 h1 {
-	font: 62px Quicksand, sans-serif;
+	font: 62px Quicksand;
 	text-transform: uppercase;
 	padding: 0.1em 0.4em;
 	text-decoration: underline;
@@ -29,22 +36,28 @@ h1 {
 	text-shadow: 1px 1px 1px #000000;
 }
 .links {
-	position: fixed;
+    position: fixed;
 	text-align: center;
 	top: 50%;
 	left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 .footer {
-	position: fixed;
+    position: fixed;
 	text-align: center;
-	top: 75%;
-	left: 50%;
+	top: 70%;
+	left: 51%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 .header {
-	position: fixed;
+    position: fixed;
 	text-align: center;
 	top: 25%;
-	left: 50%;
+	left: 50.5%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 .animated {
 	animation: fadein 6s;
@@ -87,5 +100,5 @@ span {
 }
 img {
     display: block;
-    margin:0 auto; 
+    margin: -10px;
 }
