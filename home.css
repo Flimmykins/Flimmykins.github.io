@@ -57,13 +57,11 @@ h3C {
 	text-transform: none;
 	text-decoration: none;
 	text-shadow: 1px 1px 1px black;
-    text-align: justify;
+    text-align: center;
 }
-#content {
-    position: relative;
-}
-#content img {
-    position: absolute;
-    top: -0px;
-    right: 0px;
+.image {
+	position: fixed;
+	right: 10px;
+	bottom: -5px;
+	z-index: -1;
 }
