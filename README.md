@@ -1,2 +1,2 @@
 # Flimmykins.github.io
-This is my awful site where I try to learn html and stuff.
+hi, this is my awful site where I try to mess and learn html and stuff.
