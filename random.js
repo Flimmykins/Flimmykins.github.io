@@ -8,8 +8,9 @@ var random_images_array = ["1.png",
 ];
 
 path = 'corner/';
-var num = Math.floor( Math.random() * random_images_array.length );
-var img = random_images_array[ num ];
+var num = Math.floor(Math.random() * random_images_array.length);
+var img = random_images_array[num];
 var imgStr = '<img src="' + path + img + '">';
 
-document.write(imgStr); document.close();
+document.write(imgStr);
+document.close();

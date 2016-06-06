@@ -1,18 +1,19 @@
 }
-@font-face{
-  font-family: "Quicksand";
-  src: url('Quicksand.otf') format('opentype');
+@font-face {
+    font-family: "Quicksand";
+    src: url('Quicksand.otf') format('opentype');
 }
-html,body {
-	height: 100%;
+html,
+body {
+    height: 100%;
 }
 body {
-	text-align: none;
-	margin: 0;
+    text-align: none;
+    margin: 0;
 }
-@font-face{
-  font-family: "Quicksand";
-  src: url('Quicksand.otf') format('opentype');
+@font-face {
+    font-family: "Quicksand";
+    src: url('Quicksand.otf') format('opentype');
 }
 .noselect {
     -webkit-touch-callout: none;
@@ -24,79 +25,79 @@ body {
     outline: none;
 }
 h1 {
-	font: 62px Quicksand;
-	text-transform: uppercase;
-	padding: 0.1em 0.4em;
-	text-decoration: underline;
-	margin: 0 0 -0.3em;
-	text-shadow: 1px 1px 1px black;
+    font: 62px Quicksand;
+    text-transform: uppercase;
+    padding: 0.1em 0.4em;
+    text-decoration: underline;
+    margin: 0 0 -0.3em;
+    text-shadow: 1px 1px 1px black;
 }
 .content2 {
-	position: fixed;
-	text-align: center;
-	top: 40%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
+    position: fixed;
+    text-align: center;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     color: #fff;
-	text-shadow: 1px 1px 1px #000000;
+    text-shadow: 1px 1px 1px #000000;
 }
-a:link{
-	font: 20px Quicksand;
-	text-decoration: none;
+a:link {
+    font: 20px Quicksand;
+    text-decoration: none;
     text-transform: none;
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
-a:visited{
-	font: 20px Quicksand;
-	text-decoration: none;
+a:visited {
+    font: 20px Quicksand;
+    text-decoration: none;
     text-transform: none;
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
-a:hover{
-	font: 20px Quicksand;
-	text-decoration: none;
+a:hover {
+    font: 20px Quicksand;
+    text-decoration: none;
     text-transform: none;
-	color: #ffc6d7;
+    color: #ffc6d7;
 }
 h2 {
-	font: 62px Quicksand;
-	text-transform: uppercase;
-	padding: 0.1em 0.4em;
-	text-decoration: none;
-	margin: 0 0 -0.3em;
-	text-shadow: 1px 1px 1px black;
+    font: 62px Quicksand;
+    text-transform: uppercase;
+    padding: 0.1em 0.4em;
+    text-decoration: none;
+    margin: 0 0 -0.3em;
+    text-shadow: 1px 1px 1px black;
 }
 h3 {
-	font: 32px Quicksand;
-	text-transform: uppercase;
-	padding: 0.1em 0.4em;
-	text-decoration: none;
-	margin: 0 0 -0.3em;
-	text-shadow: 1px 1px 1px black;
+    font: 32px Quicksand;
+    text-transform: uppercase;
+    padding: 0.1em 0.4em;
+    text-decoration: none;
+    margin: 0 0 -0.3em;
+    text-shadow: 1px 1px 1px black;
     text-align: left;
     color: #b776ac;
 }
 h3C {
-	font: 22px Quicksand;
-	text-shadow: 1px 1px 1px black;
+    font: 22px Quicksand;
+    text-shadow: 1px 1px 1px black;
     text-align: center;
 }
 .image {
-	position: fixed;
-	right: 0px;
-	bottom: -5px;
-	z-index: -1;
+    position: fixed;
+    right: 0px;
+    bottom: -5px;
+    z-index: -1;
 }
 .animated {
-	animation: fadein 4s;
-	transform-origin: center bottom;
+    animation: fadein 4s;
+    transform-origin: center bottom;
 }
 @keyframes fadein {
     from {
-        opacity:0;
+        opacity: 0;
     }
     to {
-        opacity:1;
+        opacity: 1;
     }
 }
