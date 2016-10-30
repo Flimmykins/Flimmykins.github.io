@@ -62,7 +62,7 @@ h1 {
     transform: translate(-50%, -50%);
 }
 .animated {
-    animation: fadein 6s;
+    animation: fadein 3s;
     transform-origin: center bottom;
 }
 @keyframes fadein {
