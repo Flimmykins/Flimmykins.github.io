@@ -90,7 +90,7 @@ h3C {
     z-index: -1;
 }
 .animated {
-    animation: fadein 4s;
+    animation: fadein 1s;
     transform-origin: center bottom;
 }
 @keyframes fadein {
