@@ -73,21 +73,14 @@ h1 {
         opacity: 1;
     }
 }
-a:link {
-    font: 14px none, sans-serif;
-    text-decoration: none;
-    color: #FFFFFF;
-}
-a:hover {
-    font: 14px none, sans-serif;
-    text-decoration: none;
-    color: #FFFFFF;
-}
-a:visited {
-    font: 14px none, sans-serif;
-    text-decoration: none;
-    color: #FFFFFF;
-}
+a:link {font: 14px none, sans-serif; text-decoration: none; color: #FFFFFF;}
+a:hover {font: 14px none, sans-serif; text-decoration: none; color: #FFFFFF;}
+a:visited {font: 14px none, sans-serif; text-decoration: none; color: #FFFFFF;}
+
+a.two:link {font: 62px Quicksand; text-transform: uppercase; text-decoration: underline; margin: 0 0 -0.3em; text-shadow: 1px 1px 1px black;}
+a.two:hover {font: 62px Quicksand; text-transform: uppercase; text-decoration: underline; margin: 0 0 -0.3em; text-shadow: 1px 1px 1px black;}
+a.two:visited {font: 62px Quicksand; text-transform: uppercase; text-decoration: underline; margin: 0 0 -0.3em; text-shadow: 1px 1px 1px black;}
+
 .text-content a {
     font: 14px Quicksand, sans-serif;
     text-transform: uppercase;
