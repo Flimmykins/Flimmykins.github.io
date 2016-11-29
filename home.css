@@ -35,7 +35,7 @@ h1 {
 .content2 {
     position: fixed;
     text-align: center;
-    top: 50%;
+    top: 48%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -58,7 +58,7 @@ a:hover {
     font: 20px Quicksand;
     text-decoration: none;
     text-transform: none;
-    color: #ffc6d7;
+    color: #664a66;
 }
 h2 {
     font: 62px Quicksand;
@@ -76,7 +76,7 @@ h3 {
     margin: 0 0 -0.3em;
     text-shadow: 1px 1px 1px black;
     text-align: left;
-    color: #b776ac;
+    color: #804b66;
 }
 h3C {
     font: 22px Quicksand;
