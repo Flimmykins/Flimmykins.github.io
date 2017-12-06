@@ -1,0 +1,143 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    text-align: none;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Quicksand";
+    src: url('Quicksand.otf') format('opentype');
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    outline: none;
+}
+
+h1 {
+    font: 62px Quicksand;
+    text-transform: uppercase;
+    padding: 0.1em 0.4em;
+    text-decoration: underline;
+    margin: 0 0 -0.3em;
+    text-shadow: 1px 1px 1px black;
+}
+
+.content {
+    position: fixed;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+.links {
+    position: fixed;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.footer {
+    position: fixed;
+    text-align: center;
+    top: 70%;
+    left: 51%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.header {
+    position: fixed;
+    text-align: center;
+    top: 25%;
+    left: 50.5%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.animated {
+    animation: fadein 3s;
+    transform-origin: center bottom;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+a:link {
+    font: 14px none, sans-serif;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a:hover {
+    font: 14px none, sans-serif;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a:visited {
+    font: 14px none, sans-serif;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a.two:link {
+    font: 62px Quicksand;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin: 0 0 -0.3em;
+    text-shadow: 1px 1px 1px black;
+}
+
+a.two:hover {
+    font: 62px Quicksand;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin: 0 0 -0.3em;
+    text-shadow: 1px 1px 1px black;
+}
+
+a.two:visited {
+    font: 62px Quicksand;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin: 0 0 -0.3em;
+    text-shadow: 1px 1px 1px black;
+}
+
+.text-content a {
+    font: 14px Quicksand, sans-serif;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+span {
+    font: 28px Quicksand, sans-serif;
+    vertical-align: bottom;
+}
+
+img {
+    display: block;
+    margin: -10px;
+}
