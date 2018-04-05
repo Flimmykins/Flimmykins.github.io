@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=utf-8 />
+    <title>gay stream</title>
+
+    <link href="https://unpkg.com/video.js/dist/video-js.css" rel="stylesheet">
+    <script src="https://unpkg.com/video.js/dist/video.js"></script>
+    <script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <style>
+        body {
+            margin: 0;
+            background-color: #1d1d1d;
+        }
+    </style>
+    <img class="overlay" src="https://i.imgur.com/6TeZgOH.png" />
+    <video class="video-js vjs-default-skin center" autoplay width="1280" height="720" poster="https://i.imgur.com/bQoBOiB.png" data-setup='{}'>
+        <source src="http://ec2-13-58-144-204.us-east-2.compute.amazonaws.com/hls/stream.m3u8" type="application/x-mpegURL">
+    </video>
+</body>
+
+</html>
