@@ -28,18 +28,20 @@ body {
     margin-right: auto;
 }
 
-.overlay {
-    position: absolute;
-    left: 50.65%;
-    top: 373px;
-    transform: translateX(-50%) translateY(-50%);
-}
-
 h1 {
     font: 62px Quicksand;
     text-transform: uppercase;
     padding: 0.1em 0.4em;
     text-decoration: underline;
+    margin: 0 0 -0.3em;
+    text-shadow: 1px 1px 1px black;
+}
+
+h2 {
+    font: 62px Quicksand;
+    text-transform: uppercase;
+    padding: 0.1em 0.4em;
+    text-decoration: none;
     margin: 0 0 -0.3em;
     text-shadow: 1px 1px 1px black;
 }
