@@ -65,33 +65,6 @@ h2 {
     transform: translate(-50%, -50%);
 }
 
-.links {
-    position: fixed;
-    text-align: center;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
-.footer {
-    position: fixed;
-    text-align: center;
-    top: 70%;
-    left: 51%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
-.header {
-    position: fixed;
-    text-align: center;
-    top: 25%;
-    left: 50.5%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
 .animated {
     animation: fadein 3s;
     transform-origin: center bottom;
