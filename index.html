@@ -12,28 +12,24 @@
         .header {
             position: fixed;
             text-align: center;
+            left: 49%;
             top: 250px;
-            left: 50.5%;
-            -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+            margin-left: -80px
         }
 
         .links {
             position: fixed;
             text-align: center;
-            top: 470px;
-            left: 50%;
-            -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+            left: 49%;
+            top: 460px;
         }
 
         .footer {
             position: fixed;
             text-align: center;
-            top: 650px;
-            left: 50.5%;
-            -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+            left: 49%;
+            top: 680px;
+            margin-left: -50px
         }
     </style>
 </head>
@@ -52,12 +48,14 @@
     <a href="http://flimsy.space/stream"><img class="footer noselect" src="./yume/produced by.png" </img></a>
 
     <audio preload autoplay loop>
-        <source src="./yume/sounds/title.ogg" type="audio/ogg" /> Your browser doesn't support the audio element.
+        <source src="./yume/sounds/title.mp3" type="audio/mpeg" />
+        Your browser doesn't support the audio element.
     </audio>
 
-    <audio preload hidden id="click">
+    <audio preload id="click">
         <source src="./yume/sounds/click.mp3" type="audio/mpeg">
-        <source src="./yume/sounds/click.ogg" type="audio/ogg" /> Your browser doesn't support the audio element.
+        <source src="./yume/sounds/click.ogg" type="audio/ogg" />
+        Your browser doesn't support the audio element.
     </audio>
 
     <script type="text/javascript">
