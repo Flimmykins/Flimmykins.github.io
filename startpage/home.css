@@ -1,19 +1,15 @@
-}
 @font-face {
     font-family: "Quicksand";
     src: url('Quicksand.otf') format('opentype');
 }
-html,
-body {
-    height: 100%;
-}
-body {
-    text-align: none;
-    margin: 0;
-}
-@font-face {
-    font-family: "Quicksand";
-    src: url('Quicksand.otf') format('opentype');
+
+h1 {
+    font: 62px Quicksand;
+    text-transform: uppercase;
+    padding: 0.1em 0.4em;
+    text-decoration: underline;
+    margin: 0 0 -0.3em;
+    text-shadow: 1px 1px 1px black;
 }
 .noselect {
     -webkit-touch-callout: none;
@@ -24,18 +20,14 @@ body {
     user-select: none;
     outline: none;
 }
-h1 {
-    font: 62px Quicksand;
-    text-transform: uppercase;
-    padding: 0.1em 0.4em;
-    text-decoration: underline;
-    margin: 0 0 -0.3em;
-    text-shadow: 1px 1px 1px black;
-}
+.content1 {
+    display:flex;
+    position: absolute;
+    }
 .content2 {
     position: fixed;
     text-align: center;
-    top: 48%;
+    top: 30%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -68,8 +60,16 @@ h2 {
     margin: 0 0 -0.3em;
     text-shadow: 1px 1px 1px black;
 }
+h2a {
+    font: 24px Quicksand;
+    text-transform: uppercase;
+    padding: 0.1em 0.4em;
+    text-decoration: none;
+    margin: 0 0 -0.3em;
+    text-shadow: 1px 1px 1px black;
+}
 h3 {
-    font: 32px Quicksand;
+    font: 60px Quicksand;
     text-transform: uppercase;
     padding: 0.1em 0.4em;
     text-decoration: none;
@@ -79,9 +79,8 @@ h3 {
     color: #804b66;
 }
 h3C {
-    font: 22px Quicksand;
+    font: 32px Quicksand;
     text-shadow: 1px 1px 1px black;
-    text-align: center;
 }
 .image {
     position: fixed;
@@ -89,15 +88,32 @@ h3C {
     bottom: -5px;
     z-index: -1;
 }
-.animated {
-    animation: fadein 0s;
-    transform-origin: center bottom;
+
+form {
+  background-color: #272727;
+  width: 300px;
+  height: 44px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  left: 31%;
 }
-@keyframes fadein {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+
+input {
+  all: unset;
+  font: 16px system-ui;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  padding: 6px 10px;
+}
+
+::placeholder {
+  color: white;
+  opacity: 0.4; 
+}
+div {
+  column-gap: 60px;
 }
