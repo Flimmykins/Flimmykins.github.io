@@ -74,6 +74,7 @@ h2 {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -135,4 +136,27 @@ span {
 img {
     display: block;
     margin: -10px;
+}
+
+.header {
+    position: fixed;
+    text-align: center;
+    left: 49%;
+    top: 250px;
+    margin-left: -80px
+}
+
+.links {
+    position: fixed;
+    text-align: center;
+    left: 49%;
+    top: 460px;
+}
+
+.footer {
+    position: fixed;
+    text-align: center;
+    left: 49%;
+    top: 680px;
+    margin-left: -50px
 }
