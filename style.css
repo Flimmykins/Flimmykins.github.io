@@ -155,6 +155,7 @@ img {
 
 .footer {
     position: fixed;
+    cursor: pointer;
     text-align: center;
     left: 49%;
     top: 680px;

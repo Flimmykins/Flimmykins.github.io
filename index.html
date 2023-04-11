@@ -20,13 +20,18 @@
         <br>
         <a href="https://letterboxd.com/flimmykins/"><img src="./yume/films.png" <img onmouseover="this.src='./yume/films.gif'; document.getElementById('click').play()" onmouseout="this.src='./yume/films.png'" src="./yume/films.png" /></a>
     </div>
-    <a href="https://flimsy.space"><img class="footer noselect" src="./yume/produced by.png" </img></a>
+    <img class="footer noselect" src="./yume/produced by.png" onclick="playSound('./yume/sounds/bleep.mp3')"></img>
 
     <audio preload id="click">
-        <source src="./yume/sounds/click.mp3" type="audio/mpeg">
         <source src="./yume/sounds/click.ogg" type="audio/ogg" />
         Your browser doesn't support the audio element.
     </audio>
-</body>
-
+    </body>
+    
+<script>
+    function playSound(soundFile) {
+        var audio = new Audio(soundFile);
+        audio.play();
+    }
+</script>
 </html>
