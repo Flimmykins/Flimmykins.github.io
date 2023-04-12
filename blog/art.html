@@ -25,34 +25,155 @@
         </nav>
         <div id="content">
             <div class="content">This is the small collection of stuff I've made. <br><br>
-                Most of it is blender which I began learning in 2020, some of it is other stuff such as desktop and phone wallpapers<br>I put together.
+                Most of it is blender which I began learning in 2020, some of it is other stuff such as desktop and
+                phone wallpapers<br>I put together.
                 My hope in putting these here, is that having a place to put any creations will<br>
                 make me feel more inclined to actually make and finish things for once.
-            <div class="container">
-                <div class="item">
-                    <img src="./Content/image5.jpg" alt="Image 1">
+                <div class="container">
+                    <div class="item">
+                        <img src="https://cdnb.artstation.com/p/assets/images/images/056/319/317/large/flimsy-31.jpg" onclick="showContent(1)">
+                    </div>
+                    <div class="item">
+                        <img src="https://cdnb.artstation.com/p/assets/images/images/042/605/417/large/flimsy-44.jpg" onclick="showContent(2)">
+                    </div>
+                    <div class="item">
+                        <img src="https://cdna.artstation.com/p/assets/images/images/042/603/516/large/flimsy-front-side.jpg" onclick="showContent(3)">
+                    </div>
+                    <div class="item">
+                        <img src="https://cdna.artstation.com/p/assets/images/images/042/605/134/large/flimsy-render-13.jpg" onclick="showContent(4)">
+                    </div>
+                    <div class="item">
+                        <img src="https://cdna.artstation.com/p/assets/images/images/042/551/002/large/flimsy-render-28.jpg" onclick="showContent(5)">
+                    </div>
+                    <div class="item">
+                        <img src="https://cdna.artstation.com/p/assets/images/images/042/548/938/large/flimsy-render.jpg" onclick="showContent(6)">
+                    </div>
+                    <div class="item">
+                        <img src="./Content/phone1.png" onclick="showContent(7)">
+                    </div>
+                    
                 </div>
-                <div class="item">
-                    <img src="./Content/image4.jpg" alt="Image 2">
-                </div>
-                <div class="item">
-                    <img src="./Content/image3.jpg" alt="Image 3">
-    
-                </div>
-                <div class="item">
-                    <img src="./Content/image2.jpg" alt="Image 4">
-    
-                </div>
-                <div class="item">
-                    <img src="./Content/image1.jpg" alt="Image 5">
-    
-                </div>
-                <div class="item">
-                    <img src="./Content/image6.png" alt="Image 6">
-    
-                </div>
+                <div id="image-content"></div>
             </div>
-        </div></section>
     </section>
-    </div>
+    </section>
+
+    <script>
+            const content1 = `<div class="img_desc">
+                        <h2>Japanese Temple</h2>
+                <p>This is my 5th scene, it is referenced from an artist I like, named <a href="https://www.pixiv.net/en/users/12411452">ショウイチ</a>. I wanted to see if I can try to make something more "anime"-esque in the shading and texturing, and I wanted it to be rendered entirely within Blender, opposed to using after-painting or anything. Overall I think it came out decent, It isn't entirely what I wanted but close enough. I hope to be able to make more anime-like environments but better in the future.</p><br>
+                        <h2>Final Render</h2>
+                <img src="https://cdnb.artstation.com/p/assets/images/images/056/319/317/large/flimsy-31.jpg">
+                        <h2>Clay Render</h2>
+                <img src="https://cdna.artstation.com/p/assets/images/images/056/319/324/large/flimsy-clay.jpg">
+                    <h2>Progression</h2>
+                <video preload="auto" loop controls style="width: 650px;">
+                <source src="https://cdn.artstation.com/p/video_sources/001/053/703/32.mp4" type="video/mp4"></source></video>
+                        </div>`;
+
+            const content2 = `<div class="img_desc">
+                        <h2>Vending Machine</h2>
+                <p>This is my 4th scene, again more Japanese alleyway centric stuff, I like that aesthetic a lot. I still wanted to make it more realistic, but couldn't quite get the lighting down. That said, I like how it turned out. There's way more I want to add or improve, but I feel like I'd be stuck in a loop of constantly trying to improve things instead of just letting it be done and moving onto a new scene.</p><br>
+                        <h2>Final Render</h2>
+                <img src="https://cdnb.artstation.com/p/assets/images/images/042/605/417/large/flimsy-44.jpg">
+                        <h2>Clay Render</h2>
+                <img src="https://cdnb.artstation.com/p/assets/images/images/042/605/731/large/flimsy-clay-render.jpg">
+                    <h2>Progression<</h2>
+                <video preload="auto" loop controls style="width: 650px;">
+                <source src="https://cdn.artstation.com/p/video_sources/000/521/495/progress.mp4" type="video/mp4"></source></video>
+                        </div>`;
+
+            const content3 = `<div class="img_desc">
+                        <h2>Tesla</h2>
+                <p>This was my first attempt really properly trying to model something with more complexity, opposed to more basic props for scenes.There's a few issues and things look a bit wobbly in places, but I'm really happy with how it turned out, completing this kind of gives me more confidence that I can try making more complex models at some point.</p><br>
+                        <h2>Final Render</h2>
+                <img src="https://cdna.artstation.com/p/assets/images/images/042/603/516/large/flimsy-front-side.jpg">
+                        <h2>Clay Render</h2>
+                <img src="https://cdna.artstation.com/p/assets/images/images/042/603/518/large/flimsy-clay.jpg">
+                    <h2>360 Render</h2>
+                    <video preload="auto" loop controls style="width: 650px;">
+                <source src="https://cdn.artstation.com/p/video_sources/000/521/386/360.mp4" type="video/mp4"></source></video>
+                        </div>`;
+
+            const content4 = `<div class="img_desc">
+                        <h2>Classic Diner</h2>
+                <p>This was the third scene I made, it's a 1980's styled diner. I didn't finish this scene because I wasn't good enough to really model the rest of the things I wanted to add at the time, maybe I'll finish it some time.</p><br>
+                        <h2>Final Render</h2>
+                <img src="https://cdna.artstation.com/p/assets/images/images/042/605/134/large/flimsy-render-13.jpg">
+                        <h2>Night Render</h2>
+                <img src="https://cdna.artstation.com/p/assets/images/images/042/605/166/large/flimsy-render-night.jpg">
+                    <h2>Clay Render</h2>
+                    <img src="https://cdnb.artstation.com/p/assets/images/images/042/605/173/large/flimsy-render-clay.jpg">
+                        </div>`;
+
+            const content5 = `<div class="img_desc">
+                        <h2>Backstreet Alley</h2>
+                <p>This was my second attempt, and another Japanese centric backstreet. I think my modelling had improved, however I was trying to make a realistic scene, but quickly realized I couldn't. Good lighting is much harder than I expected, and overall I disliked the scene, so I stopped working on it.</p><br>
+                        <h2>Final Render</h2>
+                <img src="https://cdna.artstation.com/p/assets/images/images/042/551/002/large/flimsy-render-28.jpg">
+                        <h2>Clay Render</h2>
+                <img src="https://cdnb.artstation.com/p/assets/images/images/042/551/023/large/flimsy-clay.jpg">
+                        <h2>Progression</h2>
+                <img src="https://cdna.artstation.com/p/assets/images/images/042/551/038/original/flimsy-progress.gif">
+                        </div>`;
+
+            const content6 = `<div class="img_desc">
+                        <h2>Kyoto alley</h2>
+                <p>During the beginning of lockdown, I didn't really have anything to spend my time on, so I decided to try to learn 3D modelling. I really like Japanese architecture, and alleyways in particular, so this was the first thing I created. I maybe should have begun on something easier, but I was mostly happy with how I did.</p><br>
+                        <h2>Final Render</h2>
+                <img src="https://cdna.artstation.com/p/assets/images/images/042/548/938/large/flimsy-render.jpg">
+                        <h2>Clay Render</h2>
+                <img src="https://cdnb.artstation.com/p/assets/images/images/042/548/991/large/flimsy-render-clay.jpg">
+                        </div>`;
+
+            const content7 = `<div class="img_desc">
+                        <h2>"Milk outside a bag of milk outside a bag of milk"<br> KLWP Theme</h2>
+                <p>This is a KLWP based theme I made for a game I liked, you can <a href="https://store.steampowered.com/app/1604000">buy it here</a>. <br> It has two pages and shows basic weather info with some fluff text thematic to the game.</p>
+                        <h2><a href="./Content/Milk_Upload.klwp">Download Link</h2>
+                <img src="./Content/phone1.png">
+                        <br>
+                        <br>
+                        <br>
+                <img src="./Content/phone2.png">
+                        </div>`;
+
+        let currentContent = null;
+
+        function showContent(imageIndex) {
+            let content;
+            switch (imageIndex) {
+                case 1:
+                    content = content1;
+                    break;
+                case 2:
+                    content = content2;
+                    break;
+                case 3:
+                    content = content3;
+                    break;
+                case 4:
+                    content = content4;
+                    break;
+                case 5:
+                    content = content5;
+                    break;
+                case 6:
+                    content = content6;
+                    break;
+                case 7:
+                    content = content7;
+                    break;
+            }
+
+            if (currentContent) {
+                currentContent.innerHTML = content;
+            } else {
+                const imageContent = document.getElementById("image-content");
+                imageContent.innerHTML = content;
+                currentContent = imageContent;
+            }
+        }
+    </script>
 </body>
+
+</html>

@@ -3,6 +3,11 @@
     src: url(Content/Munro_reg.ttf);
 }
 
+@font-face {
+    font-family: 'Pixels';
+    src: url(./Content/04B_03_.ttf);
+}
+
 body {
     background-color: #1a1a1a;
     font-size: 20px;

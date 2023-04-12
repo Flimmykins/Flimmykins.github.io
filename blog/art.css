@@ -11,21 +11,34 @@
     overflow: hidden;
     border-radius: 2px;
     position: relative;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .item img {
     width: 200px;
     height: 200px;
-    border: 2px solid #333;
-    border-radius: 2px;
-    object-fit: cover;
-    transition: transform 0.2s;
+    border: 2px solid #1f1f1f;
+    object-fit:cover;
 }
 
 .item:hover img {
     cursor: pointer;
     transform: scalee(1.0);
+}
+
+.img_desc {
+    max-width: 650px;
+    margin: auto;
+}
+
+.img_desc a {
+    color: #723744;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.img_desc img {
+    max-width: 650px;
+    margin: auto;
 }
 
 @media (max-width: 600px) {
