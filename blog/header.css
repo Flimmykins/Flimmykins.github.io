@@ -19,10 +19,11 @@ body {
     margin: 0 auto;
 }
 
+/*===main header===*/
 header {
     padding: 60px 0px;
     background-image: url(Content/header3.png);
-    border-bottom: 1px solid #282B2D;
+    border-bottom: 2px solid #723744;
     max-width: 700px;
     min-width: 700px;
     max-height: 90px;
@@ -39,7 +40,7 @@ header {
     color: #fff;
 }
 
-/*===menu===*/
+/*===links bg===*/
 nav {
     background: #161616;
     max-width: 700px;
@@ -56,6 +57,7 @@ nav li {
     display: inline
 }
 
+/*===links===*/
 nav a {
     color: #fff;
     display: inline-block;
@@ -63,15 +65,14 @@ nav a {
     text-decoration: none;
     font-size: 20px;
     font-family: 'Pixels';
-    text-shadow: 0 0 0px #723744;
     letter-spacing: 2px;
-    border: 2px solid #723744;
+    border: 0px solid #723744;
 }
 
 nav li a {
     padding: 0.1em 1em 0.1em 1.5em;
-    border-right: 1px solid #282B2D;
-    border-left: 1px solid #282B2D;
+    border-right: 0px solid #282B2D;
+    border-left: 0px solid #282B2D;
 }
 
 nav a:hover,
@@ -79,11 +80,14 @@ nav a:active {
     background-color: #181818;
     color: #723744;
 }
+/*===content below links===*/
 #content {
-    padding: 0.5em 0px;
+    padding: 1em 0em 0em;
     background-color: #161616;
-    border-top: 1px solid #282B2D;
+    border-top: 2px solid #723744;
     max-width: 700px;
     min-width: 700px;
     min-height: 100vh;
+    font-size: 12px;
+    font-family: 'Segoe UI';
 }
