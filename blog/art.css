@@ -26,7 +26,8 @@ html {
 
 .item:hover img {
     cursor: pointer;
-    transform: scalee(1.0);
+    opacity: 0.4;
+    transition: .3s ease;
 }
 
 .img_desc {
