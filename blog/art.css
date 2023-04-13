@@ -1,6 +1,7 @@
 html {
     scroll-behavior: smooth;
-  }
+}
+
 .container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -20,7 +21,7 @@ html {
     width: 200px;
     height: 200px;
     border: 2px solid #1f1f1f;
-    object-fit:cover;
+    object-fit: cover;
 }
 
 .item:hover img {
@@ -44,15 +45,28 @@ html {
     margin: auto;
 }
 
-@media (max-width: 600px) {
-    h1 {
-        font-size: 1.5em;
-        padding: 0.5em;
+video {
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 1080px) {
+
+    .container,
+    .img_desc,
+    .img_desc img {
+        max-width: 90vw;
+        min-width: 90vw;
     }
 
     .container {
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         grid-gap: 10px;
-        padding: 0.5em;
+        margin: 0 auto;
+    }
+
+    .item img {
+        width: 150px;
+        height: 150px;
     }
 }

@@ -1,69 +1,70 @@
 @font-face {
     font-family: 'Pixels';
     src: url(Content/Munro_reg.ttf);
-}
-
-@font-face {
+  }
+  
+  @font-face {
     font-family: 'Pixels';
     src: url(./Content/04B_03_.ttf);
-}
-
-body {
+  }
+  
+  body {
     background-color: #1a1a1a;
     font-size: 20px;
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-#header {
+  }
+  
+  #header {
     margin-top: 0px;
     margin-bottom: 1px;
     text-align: center;
     margin: 0 auto;
-}
-
-/*===main header===*/
-header {
+  }
+  
+  /*===main header===*/
+  header {
     padding: 60px 0px;
     background-image: url(Content/header3.png);
+    background-position: center;
     border-bottom: 2px solid #723744;
     max-width: 700px;
     min-width: 700px;
     max-height: 90px;
     min-height: 90px;
-}
-
-#logo h1 a {
+  }
+  
+  #logo h1 a {
     text-decoration: none;
     color: #fff;
     font-weight: 300;
-}
-
-#logo h1 a:hover {
+  }
+  
+  #logo h1 a:hover {
     color: #fff;
-}
-
-/*===links bg===*/
-nav {
+  }
+  
+  /*===links bg===*/
+  nav {
     background: #161616;
     max-width: 700px;
     min-width: 700px;
     margin: 0 auto;
-}
-
-nav ul {
+  }
+  
+  nav ul {
     padding: 0;
     margin: 0 auto;
-}
-
-nav li {
-    display: inline
-}
-
-/*===links===*/
-nav a {
+  }
+  
+  nav li {
+    display: inline;
+  }
+  
+  /*===links===*/
+  nav a {
     color: #fff;
     display: inline-block;
     text-align: center;
@@ -72,21 +73,22 @@ nav a {
     font-family: 'Pixels';
     letter-spacing: 2px;
     border: 0px solid #723744;
-}
-
-nav li a {
+  }
+  
+  nav li a {
     padding: 0.1em 1em 0.1em 1.5em;
     border-right: 0px solid #282B2D;
     border-left: 0px solid #282B2D;
-}
-
-nav a:hover,
-nav a:active {
+  }
+  
+  nav a:hover,
+  nav a:active {
     background-color: #181818;
     color: #723744;
-}
-/*===content below links===*/
-#content {
+  }
+  
+  /*===content below links===*/
+  #content {
     padding: 1em 0em 0em;
     background-color: #161616;
     border-top: 2px solid #723744;
@@ -95,4 +97,14 @@ nav a:active {
     min-height: 100vh;
     font-size: 12px;
     font-family: 'Segoe UI';
-}
+  }
+  
+  @media only screen and (max-width: 1080px) {
+    header,
+    nav,
+    #content {
+        max-width: 99vw;
+        min-width: 99vw;
+    }
+  }
+  
