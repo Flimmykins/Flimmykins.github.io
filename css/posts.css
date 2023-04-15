@@ -31,6 +31,10 @@ span{
     letter-spacing: 5px;
 }
 
+a:link {
+    text-decoration: none;
+  }
+
 .title:hover,
 .title:active {
     color: #723744;
