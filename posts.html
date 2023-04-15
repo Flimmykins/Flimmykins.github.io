@@ -27,49 +27,14 @@
         <div id="content">
             <body>
                 <div>
-                    <h2 class="title" onclick="toggleContent(this)">2023.04.15 - AI</h2>
-                    <p class="content">I don't really have anything to write about right now, so I suppose I will just write about this site itself as a test with formatting and stuff. The point of this is how I used ChatGPT to help make this site, not that it's anything complex. AI stuff has been focused (negatively) on art, but I think it's cool that there are now tools which permit people to make anything they want, even if it's just a really basic little site.
-                <br>
-                <br>
-                    <img src="./blog/Content/1/1.png">
-                        <br>
-                        <br>
-                    <p class="content">This is what I asked for and recieved, it's super basic but it's a base to go off of. After this, I was able to take awhile to modify it and make
-                        
-                        <br>
-                        <br>
-                    <img src="./blog/Content/1/2.png">
-                        <br>
-                        <br>
+                    <br>
+                    <h2 class="title" href="./blog/chatgpt">2023.04.15 - AI</h2>
+                    <br>
+                    <h2 class="title" href="url">Title 2</h2>
+                    <br>
+                    <h2 class="title" href="url">Title 2</h2>
                 </div>
             </body>
-    </section>
-    </section>
+        </div>
 </body>
-
-<script>function toggleContent() {
-        // Get the corresponding content element
-        var content = this.nextElementSibling;
-
-        // Hide all content elements except the one that was clicked
-        var contents = document.querySelectorAll(".content");
-        for (var i = 0; i < contents.length; i++) {
-            if (contents[i] !== content) {
-                contents[i].style.display = "none";
-            }
-        }
-
-        // Toggle the display of the content element
-        if (content.style.display === "none") {
-            content.style.display = "block";
-        } else {
-            content.style.display = "none";
-        }
-    }
-
-    var titles = document.querySelectorAll(".title");
-    for (var i = 0; i < titles.length; i++) {
-        titles[i].addEventListener("click", toggleContent);
-    }</script>
-
 </html>

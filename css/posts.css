@@ -6,10 +6,9 @@ body {
   }
 
 .content {
-    display: none;
     max-width: 650px;
     margin: auto;
-    text-align:justif;
+    text-align:justify;
     font-size: 1em;
 }
 
@@ -17,7 +16,6 @@ body {
     margin: auto;
     max-width: 650px;
     border: 2px solid #723744a6;
-
 }
 
 span{
