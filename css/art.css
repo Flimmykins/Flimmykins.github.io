@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Pixels1';
-    src: url(Content/Munro_reg.ttf);
+    src: url(../blog/Munro_reg.ttf);
   }
   
   @font-face {
     font-family: 'Pixels2';
-    src: url(./Content/04B_03_.ttf);
+    src: url(../blog/04B_03_.ttf);
   }
 
 html {

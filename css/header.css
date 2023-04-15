@@ -1,12 +1,12 @@
 @font-face {
-    font-family: 'Pixels1';
-    src: url(Content/Munro_reg.ttf);
-  }
-  
-  @font-face {
-    font-family: 'Pixels2';
-    src: url(./Content/04B_03_.ttf);
-  }
+  font-family: 'Pixels1';
+  src: url(../blog/Munro_reg.ttf);
+}
+
+@font-face {
+  font-family: 'Pixels2';
+  src: url(../blog/04B_03_.ttf);
+}
   
   body {
     background-color: #1a1a1a;
@@ -27,23 +27,13 @@
   /*===main header===*/
   header {
     padding: 60px 0px;
-    background-image: url(Content/header3.png);
+    background-image: url(../blog/header3.png);
     background-position: center;
     border-bottom: 2px solid #723744;
     max-width: 700px;
     min-width: 700px;
     max-height: 90px;
     min-height: 90px;
-  }
-  
-  #logo h1 a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: 300;
-  }
-  
-  #logo h1 a:hover {
-    color: #fff;
   }
   
   /*===links bg===*/
@@ -72,13 +62,10 @@
     font-size: 20px;
     font-family: 'Pixels2';
     letter-spacing: 2px;
-    border: 0px solid #723744;
   }
   
   nav li a {
     padding: 0.1em 1em 0.1em 1.5em;
-    border-right: 0px solid #282B2D;
-    border-left: 0px solid #282B2D;
   }
   
   nav a:hover,
@@ -95,7 +82,7 @@
     max-width: 700px;
     min-width: 700px;
     min-height: 100vh;
-    font-size: 12px;
+    font-size: 14px;
     font-family: 'Segoe UI';
   }
   

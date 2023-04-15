@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Flimsy site</title>
     <link rel="icon" href="url">
-    <link rel="stylesheet" href="art.css">
-    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="./css/art.css">
+    <link rel="stylesheet" href="./css/header.css"">
 </head>
 
 <body>
@@ -19,9 +19,9 @@
         </header>
         <nav>
             <ul>
-                <li><a href="./art.html">art</a></li>
-                <li><a href="./home.html">home</a></li>
-                <li><a href="./blog.html">blog</a></li>
+                <li><a href="./art">art</a></li>
+                <li><a href="./home">home</a></li>
+                <li><a href="./posts">blog</a></li>
             </ul>
         </nav>
         <div id="content">
@@ -60,7 +60,7 @@
                                 onclick="showContent(6)">
                     </div></a>
                     <div class="item"><a href="#image-content">
-                            <img src="./Content/phone1.png" onclick="showContent(7)">
+                            <img src="./blog/phone1.png" onclick="showContent(7)">
                     </div></a>
 
                 </div>
@@ -140,12 +140,12 @@
         const content7 = `<div class="img_desc">
                         <h2>"Milk outside a bag of milk outside a bag of milk"<br> KLWP Theme</h2>
                 <p>This is a KLWP based theme I made for a game I liked, you can <a href="https://store.steampowered.com/app/1604000">buy it here</a>. <br> It has two pages and shows basic weather info with some fluff text thematic to the game.</p>
-                        <h2><a href="./Content/Milk_Upload.klwp">Download Link</h2>
-                <img src="./Content/phone1.png">
+                        <h2><a href="./blog/Milk_Upload.klwp">Download Link</h2>
+                <img src="./blog/phone1.png">
                         <br>
                         <br>
                         <br>
-                <img src="./Content/phone2.png">
+                <img src="./blog/phone2.png">
                         </div>`;
 
         let currentContent = null;
