@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Flimsy site</title>
+    <link rel="icon" href="url">
+    <link rel="stylesheet" href="blog.css">
+    <link rel="stylesheet" href="header.css">
+</head>
+
+<body>
+    <section id="header">
+        <header>
+            <div id="logo">
+                <h1><a href=""></a></h1>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="./art.html">art</a></li>
+                <li><a href="./home.html">home</a></li>
+                <li><a href="./blog.html">blog</a></li>
+            </ul>
+        </nav>
+        <div id="content"><body>
+            <div>
+                <h2 class="title" onclick="toggleContent(this)">Title 1</h2>
+                <p class="content">This is the content for Title 1.</p>
+            </div>
+            <div>
+                <h2 class="title" onclick="toggleContent(this)">Title 2</h2>
+                <p class="content">This is the content for Title 2.</p>
+            </div>
+        </body></section>
+    </section>
+</body>
+
+<script>
+    function toggleContent(title) {
+        // Get the corresponding content element
+        var content = title.nextElementSibling;
+
+        // Hide all content elements except the one that was clicked
+        var contents = document.querySelectorAll(".content");
+        for (var i = 0; i < contents.length; i++) {
+            if (contents[i] !== content) {
+                contents[i].style.display = "none";
+            }
+        }
+
+        // Toggle the display of the content element
+        if (content.style.display === "none") {
+            content.style.display = "block";
+        } else {
+            content.style.display = "none";
+        }
+    }
+</script>
+
+</html>
