@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Flimsy site</title>
     <link rel="icon" href="url">
-    <link rel="stylesheet" href="blog.css">
     <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="blog.css">
 </head>
 
 <body>
@@ -23,23 +24,29 @@
                 <li><a href="./blog.html">blog</a></li>
             </ul>
         </nav>
-        <div id="content"><body>
-            <div>
-                <h2 class="title" onclick="toggleContent(this)">Title 1</h2>
-                <p class="content">This is the content for Title 1.</p>
-            </div>
-            <div>
-                <h2 class="title" onclick="toggleContent(this)">Title 2</h2>
-                <p class="content">This is the content for Title 2.</p>
-            </div>
-        </body></section>
+        <div id="content">
+
+            <body>
+                <div>
+                    <h2 class="title" onclick="toggleContent(this)">Title 1</h2>
+                    <p class="content">This is the content for Title 1.</p>
+                </div>
+                <div>
+                    <h2 class="title" onclick="toggleContent(this)">Title 2</h2>
+                    <p class="content">This is the content for Title 2.</p>
+                </div>
+                <div>
+                    <h2 class="title" onclick="toggleContent(this)">Title 3</h2>
+                    <p class="content">This is the content for Title 3.</p>
+                </div>
+            </body>
+    </section>
     </section>
 </body>
 
-<script>
-    function toggleContent(title) {
+<script>function toggleContent() {
         // Get the corresponding content element
-        var content = title.nextElementSibling;
+        var content = this.nextElementSibling;
 
         // Hide all content elements except the one that was clicked
         var contents = document.querySelectorAll(".content");
@@ -56,6 +63,10 @@
             content.style.display = "none";
         }
     }
-</script>
+
+    var titles = document.querySelectorAll(".title");
+    for (var i = 0; i < titles.length; i++) {
+        titles[i].addEventListener("click", toggleContent);
+    }</script>
 
 </html>

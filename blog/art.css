@@ -1,6 +1,24 @@
+@font-face {
+    font-family: 'Pixels1';
+    src: url(Content/Munro_reg.ttf);
+  }
+  
+  @font-face {
+    font-family: 'Pixels2';
+    src: url(./Content/04B_03_.ttf);
+  }
+
 html {
     scroll-behavior: smooth;
 }
+
+body {
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+  }
+  
 
 .container {
     display: grid;
@@ -9,6 +27,18 @@ html {
     margin: 0 auto;
     max-width: 700px;
     padding: 1rem;
+}
+
+.info {
+    max-width: 650px;
+    margin: auto;
+}
+
+h2{
+    font-family: 'Pixels2';
+    font-size: 2em;
+    letter-spacing: 5px;
+    color: #723744;
 }
 
 .item {

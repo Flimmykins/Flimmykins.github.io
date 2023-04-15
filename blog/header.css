@@ -1,10 +1,10 @@
 @font-face {
-    font-family: 'Pixels';
+    font-family: 'Pixels1';
     src: url(Content/Munro_reg.ttf);
   }
   
   @font-face {
-    font-family: 'Pixels';
+    font-family: 'Pixels2';
     src: url(./Content/04B_03_.ttf);
   }
   
@@ -70,7 +70,7 @@
     text-align: center;
     text-decoration: none;
     font-size: 20px;
-    font-family: 'Pixels';
+    font-family: 'Pixels2';
     letter-spacing: 2px;
     border: 0px solid #723744;
   }
