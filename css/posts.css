@@ -28,7 +28,8 @@ span{
     color: #ffffff;
     font-size: 1rem;
     font-family:'Segoe UI';
-    letter-spacing: 5px;
+    letter-spacing: 2px;
+    text-align: center;
 }
 
 a:link {
@@ -40,5 +41,26 @@ a:link {
     color: #723744;
     font-size: 1rem;
     font-family:'Segoe UI';
-    letter-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 1080px) {
+
+  .content,
+  .content img,
+  .title {
+      max-width: 90vw;
+      min-width: 90vw;
+  }
+
+  .container {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      grid-gap: 10px;
+      margin: 0 auto;
+  }
+
+  .item img {
+      width: 150px;
+      height: 150px;
+  }
 }
