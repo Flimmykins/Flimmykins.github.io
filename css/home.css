@@ -1,0 +1,32 @@
+.bio {
+    max-width: 650px;
+    margin: auto;
+    text-align: justify;
+    font-size: 1em;
+}
+
+#content {
+    width: 80%;
+    margin: 0 auto;
+}
+#img-float {
+    float: left;
+    margin: 0 20px 0px 0px;
+    width: 30%;
+}
+
+span{
+    width:100%;
+    height:1em;
+    display:inline-block;
+  }
+
+  @media only screen and (max-width: 1080px) {
+
+    .bio {
+        max-width: 90%;
+        margin: auto;
+        text-align: justify;
+        font-size: 1em;
+    }
+}
