@@ -76,7 +76,7 @@
   
   /*===content below links===*/
   #content {
-    padding: 1em 0em 0em;
+    padding: 1em 0em 1em 0em;
     background-color: #161616;
     border-top: 2px solid #723744;
     max-width: 700px;
