@@ -29,7 +29,13 @@ span{
     font-size: 1rem;
     font-family:'Segoe UI';
     letter-spacing: 2px;
-    text-align: ;
+}
+
+.blog_title {
+    color: #ffffff;
+    font-size: 1rem;
+    font-family:'Segoe UI';
+    letter-spacing: 2px;
 }
 
 a:link {
@@ -38,6 +44,14 @@ a:link {
 
 .title:hover,
 .title:active {
+    color: #723744;
+    font-size: 1rem;
+    font-family:'Segoe UI';
+    letter-spacing: 2px;
+}
+
+.blog_title:hover,
+.blog_title:active {
     color: #723744;
     font-size: 1rem;
     font-family:'Segoe UI';
