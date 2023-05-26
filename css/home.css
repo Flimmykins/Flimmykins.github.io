@@ -1,7 +1,7 @@
 .bio {
     max-width: 650px;
     margin: auto;
-    text-align: justify;
+    text-align: center;
     font-size: 1em;
 }
 
@@ -10,9 +10,11 @@
     margin: 0 auto;
 }
 #img-float {
-    float: left;
-    margin: 0 20px 0px 0px;
-    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+    width: 50%;
 }
 
 span{
@@ -26,7 +28,38 @@ span{
     .bio {
         max-width: 90%;
         margin: auto;
-        text-align: justify;
+        text-align: center;
         font-size: 1em;
     }
 }
+
+#links {
+    background: #161616;
+    margin: 0 auto;
+  }
+  
+  /*===links===*/
+  #links a {
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    font-family:'Segoe UI';
+    letter-spacing: 2px;
+  }
+  
+  #links li a {
+    padding: 0.1em 1em 0.1em 1.5em;
+  }
+  
+  #links a:hover,
+  #links a:active {
+    background-color: #181818;
+    color: #723744;
+  }
+
+  .slash {
+    background-color: #181818;
+    color: #723744;
+  }
