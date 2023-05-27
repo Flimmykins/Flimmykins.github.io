@@ -7,6 +7,11 @@
   font-family: 'Pixels2';
   src: url(../blog/04B_03_.ttf);
 }
+
+@font-face {
+  font-family: 'Pixels3';
+  src: url(../blog/Munro_small.ttf);
+}
   
   body {
     background-color: #1a1a1a;
@@ -70,7 +75,6 @@
   
   nav a:hover,
   nav a:active {
-    background-color: #181818;
     color: #723744;
   }
   
@@ -83,10 +87,20 @@
     min-width: 700px;
     min-height: 100vh;
     font-size: 14px;
-    font-family: 'Segoe UI';
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
   }
-  
+
   @media only screen and (max-width: 1080px) {
+    header,
+    nav,
+    #content {
+        max-width: 99vw;
+        min-width: 99vw;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
     header,
     nav,
     #content {
