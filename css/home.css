@@ -23,16 +23,6 @@ span{
     display:inline-block;
   }
 
-  @media only screen and (max-width: 1080px) {
-
-    .bio {
-        max-width: 90%;
-        margin: auto;
-        text-align: center;
-        font-size: 1em;
-    }
-}
-
 #links {
     background: #161616;
     margin: 0 auto;
@@ -63,3 +53,24 @@ span{
     background-color: #181818;
     color: #723744;
   }
+
+  @media only screen and (max-width: 1080px) {
+
+    .bio {
+        max-width: 90%;
+    }
+
+@media only screen and (max-width: 600px) {
+
+  .bio {
+      max-width: 90%;
+  }
+
+  #img-float {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+    width: 80%;
+}
+}
