@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Pixels1';
+    src: url(../blog/Munro_reg.ttf);
+}
+
+@font-face {
+    font-family: 'Pixels2';
+    src: url(../blog/04B_03_.ttf);
+}
+
+@font-face {
+    font-family: 'Pixels3';
+    src: url(../blog/Munro_small.ttf);
+}
+
+::selection {
+    color: #ffffff;
+    background: #723744;
+}
+
+::-moz-selection {
+    color: #ffffff;
+    background: #723744;
+}
+
+.c_text {
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    padding: 0px 10px 0px 10px;
+}
+
+h2 {
+    font-family: 'Pixels2';
+    font-size: 2em;
+    letter-spacing: 5px;
+    color: #723744;
+    margin: 10px;
+}

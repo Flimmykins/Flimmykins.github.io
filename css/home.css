@@ -1,77 +1,78 @@
 .bio {
-    max-width: 650px;
-    margin: auto;
-    text-align: center;
-    font-size: 1em;
+  max-width: 650px;
+  margin: auto;
+  text-align: center;
+  font-size: 1em;
 }
 
 #content {
-    width: 80%;
-    margin: 0 auto;
-}
-#img-float {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 5%;
-    width: 50%;
+  width: 80%;
+  margin: 0 auto;
 }
 
-span{
-    width:100%;
-    height:1em;
-    display:inline-block;
-  }
+#img-float {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5%;
+  width: 50%;
+}
+
+span {
+  width: 100%;
+  height: 1em;
+  display: inline-block;
+}
 
 #links {
-    background: #161616;
-    margin: 0 auto;
-  }
-  
-  /*===links===*/
-  #links a {
-    color: #fff;
-    display: inline-block;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    font-family:'pixels2';
-    letter-spacing: 2px;
-  }
-  
-  #links li a {
-    padding: 0.1em 1em 0.1em 1.5em;
-  }
-  
-  #links a:hover,
-  #links a:active {
-    background-color: #181818;
-    color: #723744;
-  }
+  background: #161616;
+  margin: 0 auto;
+}
 
-  .slash {
-    background-color: #181818;
-    color: #723744;
-  }
+/*===links===*/
+#links a {
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'pixels2';
+  letter-spacing: 2px;
+}
 
-  @media only screen and (max-width: 1080px) {
+#links li a {
+  padding: 0.1em 1em 0.1em 1.5em;
+}
 
-    .bio {
-        max-width: 90%;
-    }
+#links a:hover,
+#links a:active {
+  background-color: #181818;
+  color: #723744;
+}
 
-@media only screen and (max-width: 600px) {
+.slash {
+  background-color: #181818;
+  color: #723744;
+}
+
+@media only screen and (max-width: 1080px) {
 
   .bio {
-      max-width: 90%;
+    max-width: 90%;
   }
 
-  #img-float {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 5%;
-    width: 80%;
-}
-}
+  @media only screen and (max-width: 600px) {
+
+    .bio {
+      max-width: 90%;
+    }
+
+    #img-float {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 5%;
+      width: 80%;
+    }
+  }
 }
