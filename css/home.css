@@ -1,11 +1,11 @@
 .bio {
-  max-width: 650px;
+  max-width: 750px;
   margin: auto;
   text-align: center;
   font-size: 1em;
 }
 
-#content {
+.content {
   width: 80%;
   margin: 0 auto;
 }

@@ -7,8 +7,15 @@ html {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 20px;
     margin: 0 auto;
-    max-width: 700px;
+    max-width: 800px;
     padding: 1rem;
+}
+
+.content {
+    max-width: 750px;
+    margin: auto;
+    text-align: justify;
+    font-size: 1em;
 }
 
 .item {
@@ -31,7 +38,7 @@ html {
 }
 
 .img_desc {
-    max-width: 650px;
+    max-width: 750px;
     margin: auto;
 }
 
@@ -42,8 +49,7 @@ html {
 }
 
 .img_desc img {
-    max-width: 650px;
-    margin: auto;
+    max-width: 750px;
 }
 
 video {
@@ -51,7 +57,13 @@ video {
     height: auto;
 }
 
-@media only screen and (max-width: 1080px) {
+p {
+    max-width: 750px;
+    margin: 20px;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 800px) {
 
     .container,
     .img_desc,
