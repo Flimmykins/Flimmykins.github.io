@@ -50,3 +50,7 @@ a:link {
     font-family: 'Segoe UI';
     letter-spacing: 2px;
 }
+
+p {
+    margin-top: 5px;
+}
