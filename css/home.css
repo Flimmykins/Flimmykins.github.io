@@ -35,8 +35,8 @@ span {
   display: inline-block;
   text-align: center;
   text-decoration: none;
-  font-size: 16px;
-  font-family: 'pixels2';
+  font-size: 20px;
+  font-family: 'pixels3';
   letter-spacing: 2px;
 }
 
@@ -53,6 +53,26 @@ span {
 .slash {
   background-color: #181818;
   color: #723744;
+}
+
+.bio-box {
+  background: #0d0d14; /* Semi-transparent dark background */
+  padding: 1px 10px 1px 10px;
+  width: 70%; /* Adjust width to fit your design */
+  margin: 20px auto; /* Centers the box */
+  font-family: monospace; /* Pixel-style font */
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 0 0 0px; /* Soft neon glow */
+  outline: 1px solid #723744;
+  
+}
+
+.separator {
+  margin: 0 8px; /* Adds space on both sides of the | */
+  color: #723744; /* Optional: Change separator color */
+  display: inline; /* Ensures the separator stays inline with text */
 }
 
 @media only screen and (max-width: 1080px) {
